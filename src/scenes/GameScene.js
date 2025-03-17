@@ -176,7 +176,7 @@ class GameScene extends BaseScene {
         .setInteractive({ useHandCursor: true });
       // .sprite(100, this.upArrow.y + 30, "leftArrow")
       this.leftArrow = this.physics.add
-        .sprite(670,620, "leftArrow")
+        .sprite(100, this.upArrow.y + 30, "leftArrow")
         .setScale(0.17)
         .setDepth(4)
         .setInteractive({ useHandCursor: true });
