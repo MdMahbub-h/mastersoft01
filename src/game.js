@@ -20,6 +20,13 @@ const config = {
       debug: false,
     },
   },
+   input: {
+    touch: {
+      capture: true, // Enable touch event capture
+      enabled: true, // Enable touch input
+      multitouch: true, // Enable multi-touch
+    },
+  },
   fps: {
     target: 60,
     forceSetTimeOut: true,
