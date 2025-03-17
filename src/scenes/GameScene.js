@@ -164,6 +164,7 @@ class GameScene extends BaseScene {
 
   cursorKeys() {
     if (this.mobileDevice) {
+      this.input.addPointer(2);
       this.upArrow = this.physics.add
         .sprite(670, 620, "upArrow")
         .setScale(0.17)
