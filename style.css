@@ -14,7 +14,7 @@ html {
 
 body {
   transform: rotate(90deg);
-  transform-origin: top left;
+  transform-origin: center;
   /* width: 100vh; */
   height: 100vw;
   overflow: hidden;
