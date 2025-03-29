@@ -12,7 +12,7 @@ html {
   background-color: #28261e;
 } */
 
-body { margin: 0;
+body {margin-top: 200;
   padding: 0;
   transform: rotate(90deg);
   transform-origin: top right;
