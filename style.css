@@ -12,11 +12,12 @@ html {
   background-color: #28261e;
 } */
 
-body {
+body { margin: 0;
+  padding: 0;
   transform: rotate(90deg);
   transform-origin: top right;
   width: 100vh;
-  height: 100vw;
+/*   height: 100vw; */
   overflow: hidden;
   position: absolute;
   top: 100%;
